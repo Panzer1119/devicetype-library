@@ -5,6 +5,11 @@ slug: frtizbox-7590
 part_number: 2000 2804
 u_height: 0
 is_full_depth: false
+console-ports:
+  - name: USB 3.0 1
+    type: usb-a
+  - name: USB 3.0 2
+    type: usb-a
 power-ports:
   - name: Power
     type: dc-terminal
