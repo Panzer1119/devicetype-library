@@ -1,0 +1,32 @@
+---
+manufacturer: Western Digital
+model: PR4100
+slug: pr4100
+part_number: PR4100
+u_height: 4.5
+is_full_depth: false
+airflow: front-to-rear
+comments: My Cloud Pro Series 4-Bay NAS, 19V
+console-ports:
+  - name: USB 3.0 1
+    type: usb-a
+  - name: USB 3.0 2
+    type: usb-a
+  - name: USB 3.0 3
+    type: usb-a
+power-ports:
+  - name: PS 1
+    type: dc-terminal
+    maximum_draw: 90
+  - name: PS 2
+    type: dc-terminal
+    maximum_draw: 90
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+inventory-items:
+  - name: CPU
+    manufacturer: Intel
+    part_id: N3710
