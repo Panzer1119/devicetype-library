@@ -1,0 +1,43 @@
+---
+manufacturer: AVM
+model: FRITZ!box 6591
+slug: frtizbox-6591
+part_number: 2000 2857
+u_height: 0
+is_full_depth: false
+console-ports:
+  - name: USB 3.0 1
+    type: usb-a
+  - name: USB 3.0 2
+    type: usb-a
+power-ports:
+  - name: Power
+    type: dc-terminal
+    maximum_draw: 30
+interfaces:
+  - name: Cable
+    label: "Cable"
+    type: docsis
+  - name: FON1
+    label: "FON 1"
+    type: other
+  - name: FON2
+    label: "FON 2"
+    type: other
+  - name: FONS
+    label: "FON S"
+    type: xdsl
+  - name: LAN1
+    label: "LAN 1"
+    type: 1000base-t
+  - name: LAN2
+    label: "LAN 2"
+    type: 1000base-t
+  - name: LAN3
+    label: "LAN 3"
+    type: 1000base-t
+  - name: LAN4
+    label: "LAN 4"
+    type: 1000base-t
+  - name: WiFi
+    type: ieee802.11ac
