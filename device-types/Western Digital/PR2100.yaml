@@ -1,0 +1,30 @@
+---
+manufacturer: Western Digital
+model: PR2100
+slug: pr2100
+part_number: PR2100
+u_height: 3.5
+is_full_depth: false
+airflow: front-to-rear
+comments: My Cloud Pro Series 2-Bay NAS, 12V
+console-ports:
+  - name: USB 3.0 1
+    type: usb-a
+  - name: USB 3.0 2
+    type: usb-a
+power-ports:
+  - name: PS 1
+    type: dc-terminal
+    maximum_draw: 48
+  - name: PS 2
+    type: dc-terminal
+    maximum_draw: 48
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+inventory-items:
+  - name: CPU
+    manufacturer: Intel
+    part_id: N3710
